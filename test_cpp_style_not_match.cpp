@@ -8,9 +8,9 @@ int main () {
     char input = 'i';
     cout << "To exit, press 'm'" << endl;
     while(input != 'm') {
-       cin  >> input;
-       cout << "You just entered " << input
-           << " you need to enter m to exit." << endl;
+        cin  >> input;
+        cout << "You just entered " << input
+            << " you need to enter m to exit." << endl;
     }
     exit(0);
 }
